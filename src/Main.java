@@ -14,12 +14,18 @@ public class Main {
         } else {
             System.out.println("Если возраст человека равен " + age1 + ", он не достиг совершеннолетия, нужно немного подождать.");
         }
-    int temp = 4;
+        int temp = 4;
         if (temp < 5) {
             System.out.println("На улице " + temp + " градуса , нужно надеть шапку");
         } else {
             System.out.println("Сегодня" + temp + "градуса , можно идти без шапки");
 
+        }
+        int speed = 20;
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + ", то придется заплатить штраф.");
+        } else {
+            System.out.println("Если скорость " + speed + ", можно ездить спокойно.");
         }
     }
 }
