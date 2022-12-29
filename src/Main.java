@@ -45,6 +45,20 @@ int childAge = 14;
         } else {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе без сопровождения взрослого.");
         }
+        int totalCapacity = 102;
+        int totalSeatingSeats = 60;
+        int totalStandingSeats = totalCapacity - totalSeatingSeats;
+        int usedSeats = 35;
+        int usedStandingSeats = 40;
+        int freeSeats = totalSeatingSeats - usedSeats;
+        int freeStandingSeats = totalStandingSeats - usedStandingSeats;
+        int totalFreeSeats = totalCapacity - (freeSeats + freeStandingSeats);
+        if (totalFreeSeats == 0) {
+            System.out.println("Вагон уже полностью забит.");
+        } else  {
+            System.out.println("В вагоне " + freeSeats + " свободных сидячих мест и " + freeStandingSeats + " свободных стоячих места.");
+
         }
+    }
         }
 
