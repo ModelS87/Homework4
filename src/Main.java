@@ -59,6 +59,18 @@ int childAge = 14;
             System.out.println("В вагоне " + freeSeats + " свободных сидячих мест и " + freeStandingSeats + " свободных стоячих места.");
 
         }
-    }
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("Число " + one + " больше, чем " + two + " и " + three);
+        } else if (two > one && two > three) {
+            System.out.println("Число " + two + " больше, чем " + one + " и " + three);
+        } else {
+            System.out.println( "Число " + three + " больше, чем " + one + " и " + two);
+
         }
+    }
+    }
+
 
